@@ -1,5 +1,6 @@
 # GrahamScan
-Simple implementation of Graham Scan Algorithm to compute a Convex Hull out of a input set of points
+Simple implementation of Graham Scan Algorithm to compute a Convex Hull out of a input set of points.
+
 ![convex_hull](https://user-images.githubusercontent.com/77103965/168420504-69a1d171-ee69-4f8b-8cb2-d9e05b2e247f.png)
 
 The algorithm starts by sorting the input set of points in increasing x-coordinate value, then we take into account 3 points at time and perform the Orientation Test on those points.
